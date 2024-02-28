@@ -16,7 +16,7 @@ nltk.download('stopwords')
 nltk.download('punkt')
 
 # Import Datasets - https://www.kaggle.com/datasets/jackksoncsie/spam-email-dataset
-dataset = pd.read_csv(os.getcwd() + '/../Datasets/emails.csv')
+dataset = pd.read_csv(os.path.dirname(os.path.abspath(__file__)) + '/../Datasets/emails.csv')
 
 
 # Clean the texts
