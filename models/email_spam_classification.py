@@ -12,11 +12,12 @@ from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import confusion_matrix, accuracy_score
 
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 nltk.download('punkt')
 
 # Import Datasets - https://www.kaggle.com/datasets/jackksoncsie/spam-email-dataset
-dataset = pd.read_csv(os.path.dirname(os.path.abspath(__file__)) + '/../Datasets/emails.csv')
+dataset = pd.read_csv(os.path.dirname(os.path.abspath(__file__)) + '/../datasets/emails.csv')
 
 
 # Clean the texts

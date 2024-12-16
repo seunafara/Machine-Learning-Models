@@ -12,7 +12,7 @@ import numpy as np
 from sklearn.metrics import r2_score
 
 # Importing the dataset
-dataset = pd.read_csv(os.path.dirname(os.path.abspath(__file__)) + '/../Datasets/india_2018-2010_import.csv')
+dataset = pd.read_csv(os.path.dirname(os.path.abspath(__file__)) + '/../datasets/india_2018-2010_import.csv')
 
 # Clean the texts
 def clean_text(text):
