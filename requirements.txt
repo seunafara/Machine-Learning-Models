@@ -1,5 +1,5 @@
 pandas
-pyarrow
+pyarrow # https://github.com/pandas-dev/pandas/issues/54466#issuecomment-1919988166
 numpy
 nltk
 scikit-learn
